@@ -36,3 +36,38 @@
     transform: rotate(360deg);
   }
 }
+
+.steps {
+  align-items: center;
+  height: 450px;
+  width: 450px;
+  background-color: gray;
+  margin: 100px;
+  padding: 50px;
+}
+
+.numbers {
+  display: flex;
+  gap: 200px;
+  background-color: antiquewhite;
+}
+
+.active {
+  background-color: blue;
+  border: 1px solid black;
+  border-radius: 20%;
+  color: white;
+  width: 100px;
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+button {
+  background-color: skyblue;
+  border-radius: 1px;
+}
